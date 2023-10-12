@@ -1,0 +1,78 @@
+.header-top-color {
+    background-color: #EFF0F0;
+}
+
+.header-inner{
+    padding: 13px 0 15px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-location-desc,
+.header-top-clock-desc,
+.header-top-whatsupp-desc{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header-top-location-desc{
+    position: relative;
+    padding-left: 22px;
+}
+
+.header-top-location-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/location.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+}
+
+.header-top-clock-desc{
+    position: relative;
+    padding-left: 23px;
+}
+
+.header-top-clock-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/clock.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 17px;
+}
+
+.header-top-whatsupp-desc{
+    position: relative;
+    padding-left: 27px;
+}
+
+.header-top-whatsupp-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/whatsUpp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 21px;
+}
